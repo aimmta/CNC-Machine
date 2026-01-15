@@ -9,8 +9,6 @@ Power & Control System – V1
 * Shielded cable where noted
 * All grounds bonded to a single cabinet ground bar
 
----
-
 ## 1. AC mains and protection
 
 | Circuit                              | Voltage     | Current (typical) | Wire gauge | Notes                           |
@@ -20,8 +18,6 @@ Power & Control System – V1
 | Disconnect → Stepper PSU             | 240 VAC     |           ~8–10 A | **14 AWG** | Separate branch                 |
 | Disconnect → Control PSU             | 120/240 VAC |              <2 A | **16 AWG** | Light load                      |
 | Safety ground (PE)                   | —           |                 — | **10 AWG** | Cabinet ground bond             |
-
----
 
 ## 2. VFD to spindle (noise-critical)
 
@@ -35,8 +31,6 @@ Rules:
 * Shield grounded at **VFD end only**
 * Route alone, no parallel signal wiring
 
----
-
 ## 3. Stepper DC power distribution
 
 | Circuit                              | Voltage   |         Current |    Wire gauge | Notes                          |
@@ -44,8 +38,6 @@ Rules:
 | Stepper PSU DC output → distribution | 60–72 VDC |      up to 20 A |    **10 AWG** | Short run to terminal block    |
 | Distribution → each DMA860S          | 60–72 VDC | ≤6 A per driver |    **14 AWG** | Star topology, not daisy-chain |
 | DC negative return                   | 60–72 VDC |               — | **10–14 AWG** | Match positive size            |
-
----
 
 ## 4. Stepper drivers to motors
 
@@ -59,8 +51,6 @@ Notes:
 * Shield grounded at cabinet end only
 * Keep away from VFD output cable
 
----
-
 ## 5. Control power (24 VDC)
 
 | Circuit                           | Voltage |   Current | Wire gauge | Notes              |
@@ -68,8 +58,6 @@ Notes:
 | Control PSU output → distribution | 24 VDC  |      ≤5 A | **16 AWG** | Short internal run |
 | Distribution → DDCSV4.1           | 24 VDC  |      <1 A | **18 AWG** | Clean logic feed   |
 | Distribution → relays, MPG, fans  | 24 VDC  | <1 A each | **18 AWG** | Label circuits     |
-
----
 
 ## 6. Step/Dir and enable signals (DDCSV → DMA860S)
 
@@ -82,8 +70,6 @@ Notes:
 * Differential wiring preferred where available
 * Shield grounded at controller end only
 
----
-
 ## 7. Limits, homes, E-stop
 
 | Circuit                | Voltage | Current |                      Wire gauge | Cable type              |
@@ -91,8 +77,6 @@ Notes:
 | Limit & home switches  | 24 VDC  |      mA |                      **22 AWG** | Shielded if long runs   |
 | E-stop loop (control)  | 24 VDC  |      mA |                   **18–20 AWG** | Robust insulation       |
 | E-stop power interrupt | AC      |  varies | **Same as interrupted circuit** | Through contactor/relay |
-
----
 
 ## 8. Analog spindle speed control (DDCSV → VFD)
 
@@ -104,8 +88,6 @@ Rules:
 
 * Shield grounded at DDCSV end only
 * Never share conduit with VFD output
-
----
 
 ## 9. Grounding and shields
 

@@ -4,16 +4,12 @@ Power & Control System – V1
 
 This is the checklist you run **right before committing tool to material**.
 
----
-
 ## Mechanical sanity
 
 * [ ] Tool properly seated and tightened
 * [ ] Workpiece clamped securely
 * [ ] No loose hardware
 * [ ] Axis travels clear of clamps
-
----
 
 ## Control sanity
 
@@ -22,8 +18,6 @@ This is the checklist you run **right before committing tool to material**.
 * [ ] Work offset set
 * [ ] Z zero verified
 
----
-
 ## Motion sanity
 
 * [ ] Run path visually simulated
@@ -31,16 +25,12 @@ This is the checklist you run **right before committing tool to material**.
 * [ ] Feed override available
 * [ ] E-stop tested immediately before cut
 
----
-
 ## Spindle sanity
 
 * [ ] Correct RPM commanded
 * [ ] Cooling running
 * [ ] Spindle direction verified
 * [ ] No abnormal noise
-
----
 
 ## Final decision
 
@@ -52,5 +42,3 @@ This is the checklist you run **right before committing tool to material**.
 Only then:
 
 * [ ] Press Cycle Start
-
----

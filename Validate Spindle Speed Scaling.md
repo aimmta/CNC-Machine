@@ -7,16 +7,12 @@ Power & Control System – V1
 Ensure commanded RPM matches actual spindle speed.
 This validates 0–10 V scaling between DDCSV and Huanyang VFD.
 
----
-
 ## Preconditions
 
 - VFD parameters set
 - Spindle cooling operational
 - Analog control enabled
 - No cutting load applied
-
----
 
 ## Test Setup
 
@@ -25,8 +21,6 @@ Tools:
 - Optical tachometer or RPM probe
 - Eye protection
 - Clear spindle area
-
----
 
 ## Validation Procedure
 
@@ -43,8 +37,6 @@ Repeat at:
 - 75 percent
 - 100 percent of max RPM
 
----
-
 ## Adjustment
 
 If error exists:
@@ -55,15 +47,11 @@ If error exists:
 
 Repeat measurement until error is acceptable.
 
----
-
 ## Acceptance Criteria
 
 - Linear response across range
 - Error less than 2 percent preferred
 - Smooth ramping without surging
-
----
 
 ## Status
 

@@ -7,16 +7,12 @@ Power & Control System – V1
 Validate coordinated motion without cutting.
 This is the final logic and motion verification step.
 
----
-
 ## Preconditions
 
 - All axes calibrated
 - Soft limits enabled
 - Spindle control verified
 - No tool installed
-
----
 
 ## Test File Characteristics
 
@@ -29,8 +25,6 @@ The dry-run program should include:
 
 No spindle cutting load.
 
----
-
 ## Execution Steps
 
 1. Home the machine
@@ -38,8 +32,6 @@ No spindle cutting load.
 3. Enable single-block mode if available
 4. Run program at reduced feed override
 5. Observe full execution
-
----
 
 ## Observations to Make
 
@@ -49,8 +41,6 @@ No spindle cutting load.
 - No loss of position
 - Correct Z clearances
 
----
-
 ## Failure Handling
 
 If an issue occurs:
@@ -59,8 +49,6 @@ If an issue occurs:
 - Identify root cause
 - Correct configuration
 - Restart from homing
-
----
 
 ## Status
 

@@ -2,8 +2,6 @@
 
 Power & Control System – V1
 
----
-
 ## 1. Axis role definition
 
 You have four motors and four driver channels.
@@ -19,8 +17,6 @@ You have four motors and four driver channels.
 
 Do not attempt to electrically tie the two X motors together. Slaving is done in software.
 
----
-
 ## 2. Entering axis configuration mode
 
 1. Power on the DDCSV4.1
@@ -31,8 +27,6 @@ Do not attempt to electrically tie the two X motors together. Slaving is done in
 
 All configuration below happens in this area.
 
----
-
 ## 3. Enable and assign axes
 
 For each axis (X, A, Y, Z):
@@ -42,8 +36,6 @@ For each axis (X, A, Y, Z):
 * Units: **mm** (recommended, even if you think in inches)
 
 Confirm that **all four axes are enabled**.
-
----
 
 ## 4. Axis direction check (before homing)
 
@@ -67,8 +59,6 @@ Repeat until:
 * A jogs in the same physical direction as X
 * Y and Z jog correctly
 
----
-
 ## 5. Steps per unit configuration
 
 This connects driver tuning to motion.
@@ -90,8 +80,6 @@ The critical rule here:
 
 * **X and A must have identical steps-per-unit values**
 
----
-
 ## 6. Axis slaving configuration (dual-X)
 
 Navigate to:
@@ -112,8 +100,6 @@ Rules:
 * Do not slave in reverse
 
 Save settings.
-
----
 
 ## 7. Homing switch assignment
 
@@ -139,8 +125,6 @@ In **I/O Settings**:
 
 Each switch must be independent.
 
----
-
 ## 8. Homing direction and order
 
 Navigate to:
@@ -160,8 +144,6 @@ Set per your machine geometry. Typical example:
 
 Direction must move the axis **toward its home switch**.
 
----
-
 ### Homing order (recommended)
 
 | Order | Axis    | Reason                  |
@@ -174,8 +156,6 @@ If the DDCSV allows grouping:
 
 * Home X and A together
 * Ensure they stop independently on their own switches
-
----
 
 ## 9. Dual-X squaring behavior
 
@@ -193,8 +173,6 @@ This only works if:
 * X and A are not electrically tied
 * Slaving is configured correctly
 
----
-
 ## 10. Homing speed and backoff
 
 Recommended initial values:
@@ -204,8 +182,6 @@ Recommended initial values:
 * Second approach (if available): **Enabled, slow**
 
 This improves repeatability and reduces switch stress.
-
----
 
 ## 11. Soft limits (enable later)
 
@@ -218,8 +194,6 @@ After calibration:
 * Enable soft limits
 * Set travel ranges per axis
 * X and A must match exactly
-
----
 
 ## 12. First homing test procedure
 

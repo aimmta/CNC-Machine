@@ -2,8 +2,6 @@
 
 Power & Control System – V1
 
----
-
 ## 1. Preconditions
 
 Before calibrating, confirm:
@@ -15,8 +13,6 @@ Before calibrating, confirm:
 * No binding across full travel
 
 Do not calibrate until the machine can home reliably.
-
----
 
 ## 2. What steps-per-unit actually is
 
@@ -33,8 +29,6 @@ Steps per unit =
 / Linear travel per revolution
 ```
 
----
-
 ## 3. Electrical constants (locked)
 
 * Motor full steps per revolution: 200
@@ -42,8 +36,6 @@ Steps per unit =
 * Steps per motor revolution: 2000
 
 These values apply to **all axes**, including X and A.
-
----
 
 ## 4. Mechanical inputs you must supply
 
@@ -65,8 +57,6 @@ If an axis uses reduction:
 
 Each axis can differ mechanically.
 
----
-
 ## 5. Initial calculation (example)
 
 ### Example: 10 mm ballscrew
@@ -87,8 +77,6 @@ Steps per mm = 2000 / circumference
 
 Use this value only as a starting point.
 
----
-
 ## 6. Enter initial values in DDCSV4.1
 
 1. Go to **System Settings**
@@ -100,8 +88,6 @@ Use this value only as a starting point.
 4. Save settings
 
 Do not attempt fine tuning yet.
-
----
 
 ## 7. Measurement setup
 
@@ -121,8 +107,6 @@ Measurement rules:
 
 Longer moves reduce error.
 
----
-
 ## 8. Calibration move procedure
 
 For each axis independently:
@@ -137,8 +121,6 @@ Record:
 
 * Commanded distance
 * Actual distance
-
----
 
 ## 9. Correction calculation
 
@@ -163,8 +145,6 @@ New value ≈ 200.80
 
 Enter the new value.
 
----
-
 ## 10. Apply and repeat
 
 1. Enter corrected value
@@ -178,8 +158,6 @@ Stop when:
 * Error is less than 0.05 mm over 100 mm
 * Or better, depending on your goals
 
----
-
 ## 11. Dual-X axis rule
 
 * Calibrate **X only**
@@ -190,8 +168,6 @@ If the gantry does not square:
 
 * Fix homing switch alignment
 * Do not alter steps-per-unit to compensate
-
----
 
 ## 12. Z-axis special notes
 
@@ -210,8 +186,6 @@ If Z error differs up vs down:
 * That is mechanical, not steps-per-unit
 * Do not compensate electrically
 
----
-
 ## 13. Verify full-travel accuracy
 
 After fine calibration:
@@ -226,8 +200,6 @@ If error grows with distance:
 * Check couplings
 * Check rack mounting
 
----
-
 ## 14. Lock the values
 
 Once satisfied:
@@ -237,8 +209,6 @@ Once satisfied:
 * Photograph or document DDCSV screens
 
 These values should not change unless mechanics change.
-
----
 
 ## 15. What this completes
 

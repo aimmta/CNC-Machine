@@ -5,15 +5,11 @@ Power & Control System – V1
 Each section **depends on all sections above it**.
 If work stops and resumes later, restart at the highest unchecked section.
 
----
-
 ## Administrative Baseline
 
 * System named and labeled as Power & Control System – V1
 * Component selection frozen
 * Wiring, configuration, and commissioning documents created
-
----
 
 ## Mechanical Foundation
 
@@ -25,8 +21,6 @@ If work stops and resumes later, restart at the highest unchecked section.
 
 This section is a hard gate for electrical motion testing.
 
----
-
 ## Electrical Infrastructure
 
 * Cabinet installed
@@ -35,16 +29,12 @@ This section is a hard gate for electrical motion testing.
 * Branch protection installed
 * AC integrity verified with no loads
 
----
-
 ## Power Conversion and Distribution
 
 * Control PSU installed and verified
 * Stepper PSU installed and verified
 * DC distribution terminals installed
 * Voltage domains labeled
-
----
 
 ## Motion and Logic Hardware
 
@@ -54,8 +44,6 @@ This section is a hard gate for electrical motion testing.
 * Device frames bonded to ground
 * Controller boots normally
 
----
-
 ## Signal Wiring
 
 * Step, direction, and enable signals wired
@@ -63,8 +51,6 @@ This section is a hard gate for electrical motion testing.
 * Limit and home switches wired
 * E-stop logic wired
 * Spindle control signals wired
-
----
 
 ## Static Electrical Verification
 
@@ -74,8 +60,6 @@ This section is a hard gate for electrical motion testing.
 * Power-up with motors disabled
 * No faults or overheating
 
----
-
 ## Motion Enablement
 
 * Drivers enabled
@@ -84,8 +68,6 @@ This section is a hard gate for electrical motion testing.
 * Dual-X coherence verified
 * Motion disabled and inspected
 
----
-
 ## Homing and Squaring
 
 * Homing directions configured
@@ -93,8 +75,6 @@ This section is a hard gate for electrical motion testing.
 * Dual-X homing enabled
 * Gantry squaring verified
 * Homing repeatability confirmed
-
----
 
 ## Motion Calibration
 
@@ -105,8 +85,6 @@ This section is a hard gate for electrical motion testing.
 * Y axis calibrated
 * Z axis calibrated under load
 
----
-
 ## Safety Envelope
 
 * Soft limits enabled
@@ -114,8 +92,6 @@ This section is a hard gate for electrical motion testing.
 * Hard limits verified
 * E-stop removes motion power
 * E-stop stops spindle
-
----
 
 ## Spindle Validation
 
@@ -125,8 +101,6 @@ This section is a hard gate for electrical motion testing.
 * Commanded RPM matches actual RPM
 * Thermal behavior observed
 
----
-
 ## Integrated Testing
 
 * Dry-run G-code loaded
@@ -135,13 +109,9 @@ This section is a hard gate for electrical motion testing.
 * No lost steps
 * No limit faults
 
----
-
 ## Commissioning Complete
 
 * Configuration values recorded
 * Cabinet closed and ventilated
 * Wiring labeled
 * V1 declared commissioned
-
----

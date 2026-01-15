@@ -12,8 +12,6 @@ This section covers:
 * Direction, enable, and signal integrity notes
 * A safe initial steps-per-unit baseline
 
----
-
 ## Motor facts
 
 * Motor type: NEMA 34
@@ -21,8 +19,6 @@ This section covers:
 * Rated torque: 12 Nm
 * Application: Large CNC router, dual-X gantry
 * Controller: DDCSV4.1 (500 kHz capable)
-
----
 
 ## 1. Output current setting
 
@@ -52,8 +48,6 @@ After 20 to 30 minutes of holding torque:
 
 If either is too hot to touch, reduce current one step.
 
----
-
 ## 2. Idle current reduction
 
 Enable idle current reduction at **50 percent**.
@@ -64,8 +58,6 @@ If the DMA860S offers multiple idle options:
 
 * Choose 50 percent or equivalent
 * Avoid aggressive reductions below 30 percent on Z
-
----
 
 ## 3. Microstep selection
 
@@ -88,8 +80,6 @@ This is a very common and well-balanced choice for large NEMA 34 systems.
 * Mechanical stiffness dominates accuracy, not microstep count
 * Higher microsteps increase pulse rate with no real gain
 
----
-
 ## 4. Steps per revolution and steps per unit
 
 ### Motor basics
@@ -110,8 +100,6 @@ You will calculate steps per unit later based on:
 
 For now, lock **2000 steps per motor revolution** as the electrical constant.
 
----
-
 ## 5. Signal polarity and enable behavior
 
 ### Direction signal
@@ -126,8 +114,6 @@ For now, lock **2000 steps per motor revolution** as the electrical constant.
 * Active-low enable is typical
 * Confirm behavior by disabling the axis in DDCSV and verifying free rotation
 
----
-
 ## 6. Pulse timing considerations
 
 The DMA860S is tolerant, but best practice is:
@@ -136,8 +122,6 @@ The DMA860S is tolerant, but best practice is:
 * Direction setup time: ≥ 5 microseconds before step
 
 The DDCSV4.1 defaults are usually safe here. No special tuning required initially.
-
----
 
 ## 7. Axis-specific notes
 
@@ -156,8 +140,6 @@ The DDCSV4.1 defaults are usually safe here. No special tuning required initiall
 
 * Same current and microstep initially
 * If Z runs warmer, reduce idle current only, not peak
-
----
 
 ## 8. Initial verification checklist
 

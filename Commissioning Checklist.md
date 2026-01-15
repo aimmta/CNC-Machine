@@ -5,8 +5,6 @@ Power & Control System – V1
 This checklist defines when **V1 is complete and safe to operate**.
 All items should be verified in order. Do not skip steps.
 
----
-
 ## Phase 0: Administrative and Baseline
 
 * [ ] Power & Control System labeled as **V1**
@@ -14,8 +12,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] All PSU voltages labeled
 * [ ] Cabinet ground bonded to earth
 * [ ] Emergency stop physically accessible
-
----
 
 ## Phase 1: Electrical Integrity
 
@@ -28,8 +24,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] Spindle body bonded
 * [ ] Cable shields terminated at cabinet end only
 
----
-
 ### Power integrity
 
 * [ ] Main disconnect interrupts all AC
@@ -38,8 +32,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] VFD on dedicated branch
 * [ ] Control PSU stable at 24 VDC
 * [ ] No unexpected heating under idle power
-
----
 
 ## Phase 2: Controller and Logic
 
@@ -50,8 +42,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] Axis enable toggles correctly
 * [ ] E-stop input recognized by controller
 
----
-
 ### Axis mapping
 
 * [ ] X motor responds to X jog
@@ -59,8 +49,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] X and A jog in same physical direction
 * [ ] Y jog correct direction
 * [ ] Z jog correct direction
-
----
 
 ## Phase 3: Homing and Squaring
 
@@ -71,8 +59,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] Y homes after gantry
 * [ ] No switch overtravel or chatter
 
----
-
 ## Phase 4: Motion Calibration
 
 ### Driver configuration
@@ -82,8 +68,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] Idle current reduction enabled
 * [ ] Drivers remain thermally stable
 
----
-
 ### Steps-per-unit
 
 * [ ] Initial calculated values entered
@@ -91,8 +75,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] Y calibrated
 * [ ] Z calibrated under load
 * [ ] Error less than target tolerance
-
----
 
 ## Phase 5: Limits and Safety
 
@@ -103,8 +85,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] E-stop cuts motion power
 * [ ] E-stop stops spindle
 
----
-
 ## Phase 6: Spindle Validation
 
 * [ ] Cooling system operational
@@ -113,8 +93,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] 0–10 V scaling linear
 * [ ] Commanded RPM matches measured RPM
 * [ ] No abnormal noise or vibration
-
----
 
 ## Phase 7: Dry-Run Validation
 
@@ -125,8 +103,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] No lost steps
 * [ ] No unexpected pauses or resets
 
----
-
 ## Phase 8: V1 Acceptance
 
 * [ ] Cabinet closed and ventilated
@@ -134,10 +110,6 @@ All items should be verified in order. Do not skip steps.
 * [ ] Configuration values recorded
 * [ ] V1 declared complete
 
----
-
 ## Status
 
 Power & Control System – V1 commissioned.
-
----

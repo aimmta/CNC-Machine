@@ -2,8 +2,6 @@
 
 Power & Control System – V1
 
----
-
 ## 1. AC Mains and Power Distribution Wire
 
 ### High-current AC (cabinet internal)
@@ -37,8 +35,6 @@ Insulation type:
 
 * MTW or THHN, 600 V rated, 75 °C or higher
 
----
-
 ## 2. VFD to Spindle Cable (critical item)
 
 * **Shielded VFD motor cable, 4-conductor**
@@ -51,8 +47,6 @@ Insulation type:
     * Typical router: **15–25 ft**
 
 Do not substitute generic SOOW here. This cable matters.
-
----
 
 ## 3. Stepper DC Power Wiring
 
@@ -69,8 +63,6 @@ Do not substitute generic SOOW here. This cable matters.
 
   * Purpose: terminal block to each DMA860S
   * Buy: 25–30 ft total (covers all four drivers)
-
----
 
 ## 4. Stepper Motor Cables
 
@@ -90,8 +82,6 @@ You have **4 NEMA 34 motors**.
 
 Label both ends before installing.
 
----
-
 ## 5. Control Power (24 VDC)
 
 * **16 AWG stranded copper wire**
@@ -108,8 +98,6 @@ Color suggestion:
 
 * Red = +24 V
 * Black or blue = 0 V
-
----
 
 ## 6. Step / Direction / Enable Signal Wiring
 
@@ -129,8 +117,6 @@ Buy:
 
 You can run one multi-pair cable per driver or bundle pairs neatly.
 
----
-
 ## 7. Limits, Homes, and E-stop Wiring
 
 ### Limit and home switches
@@ -148,8 +134,6 @@ You can run one multi-pair cable per driver or bundle pairs neatly.
   * Purpose: E-stop logic loop
   * Buy: 15–20 ft
 
----
-
 ## 8. Analog Spindle Speed Control (0–10 V)
 
 * **Shielded twisted-pair cable**
@@ -158,8 +142,6 @@ You can run one multi-pair cable per driver or bundle pairs neatly.
   * Buy: 10–15 ft
 
 This must be its own cable. Do not bundle with step/dir.
-
----
 
 ## 9. Grounding and Shield Termination
 
@@ -172,8 +154,6 @@ This must be its own cable. Do not bundle with step/dir.
 
   * Purpose: shield termination to ground bar
   * Usually included in shielded cable, but have extra on hand
-
----
 
 ## 10. Optional but strongly recommended
 

@@ -7,16 +7,12 @@ Power & Control System – V1
 Acceleration and velocity settings define machine performance and reliability.
 Overly aggressive values cause missed steps and mechanical stress.
 
----
-
 ## Preconditions
 
 - Steps-per-unit calibration complete
 - Motors and drivers tuned
 - No axis binding
 - Machine fully assembled
-
----
 
 ## Initial Conservative Settings
 
@@ -34,8 +30,6 @@ Example approach:
 - Start at 25 percent of expected maximum
 - Increase incrementally
 
----
-
 ### Acceleration
 
 Acceleration has greater impact than top speed.
@@ -47,8 +41,6 @@ Acceleration has greater impact than top speed.
 Start low.
 Increase only after stable testing.
 
----
-
 ## Configuration Steps
 
 1. Enter System Settings
@@ -57,8 +49,6 @@ Increase only after stable testing.
    - Set maximum velocity
    - Set acceleration
 4. Save settings
-
----
 
 ## Testing Procedure
 
@@ -72,8 +62,6 @@ If any issue occurs:
 - Reduce acceleration first
 - Reduce velocity second
 
----
-
 ## Locking Values
 
 Once stable:
@@ -81,8 +69,6 @@ Once stable:
 - Record final values
 - Apply identical values to X and A
 - Do not exceed tested limits
-
----
 
 ## Status
 

@@ -4,8 +4,6 @@ Power & Control System – V1
 
 This is a **textual placement plan**, suitable for a sketch or CAD later.
 
----
-
 ## Rail 1: High-Voltage AC (Top or Left)
 
 Order from incoming power:
@@ -21,8 +19,6 @@ Rules:
 * No signal wiring on this rail
 * Clear finger-safe spacing
 
----
-
 ## Rail 2: Power Conversion (Center)
 
 Left to right:
@@ -36,8 +32,6 @@ Rules:
 * Keep DC runs short
 * Label voltage clearly
 * Leave airflow clearance
-
----
 
 ## Rail 3: Motion and Control (Opposite Side)
 
@@ -53,8 +47,6 @@ Rules:
 * No AC crossings
 * DIP switches accessible
 
----
-
 ## Rail 4: Ground and I/O (Bottom)
 
 1. Ground bar
@@ -66,5 +58,3 @@ Rules:
 * Single-point ground
 * Shields land here
 * Easy inspection
-
----

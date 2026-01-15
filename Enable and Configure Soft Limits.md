@@ -7,16 +7,12 @@ Power & Control System – V1
 Soft limits prevent axis motion beyond the usable travel range.
 They are a software safety layer and must never replace hard limits or E-stop behavior.
 
----
-
 ## Preconditions
 
 - Machine homes reliably on all axes
 - Steps-per-unit calibration is complete
 - Dual-X homing and squaring are correct
 - No binding across full axis travel
-
----
 
 ## Procedure
 
@@ -26,8 +22,6 @@ They are a software safety layer and must never replace hard limits or E-stop be
    - System Settings
    - Axis Settings
    - Soft Limits
-
----
 
 ## Configure Travel Limits
 
@@ -51,8 +45,6 @@ Rules:
 - Do not include crash margin in usable travel
 - Leave mechanical margin at both ends
 
----
-
 ## Enable Soft Limits
 
 - Soft limits: Enabled
@@ -61,8 +53,6 @@ Rules:
 
 Save settings.
 
----
-
 ## Verification
 
 1. Home the machine
@@ -70,15 +60,11 @@ Save settings.
 3. Confirm motion stops before mechanical end
 4. Confirm no false triggering during normal motion
 
----
-
 ## Notes
 
 - Soft limits only function after homing
 - Loss of position invalidates soft limits
 - Mechanical changes require revalidation
-
----
 
 ## Status
 
