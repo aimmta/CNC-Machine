@@ -1,4 +1,4 @@
-# Wire Gauge Specification
+﻿# Wire Gauge Specification
 
 Power & Control System – V1
 

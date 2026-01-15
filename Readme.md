@@ -1,8 +1,8 @@
 # Readme
 
-If you're the sort of person that likes to vomit $10,000 into a trash can and set it ablaze, ignore all of this and follow your gut.
-
-If you want you machine to work, read the reference material and follow the instructions.
+Proverbs 15:32 - "Whoever ignores instruction despises himself, but he who listens to reproof gains understanding."
+Proverbs 12:15 - "The way of a fool is right in his own eyes, but a wise man listens to advice."
+Proverbs 13:18 - "Poverty and shame come to him who ignores instruction, but whoever heeds reproof is honored."
 
 ## Reference Materials
 

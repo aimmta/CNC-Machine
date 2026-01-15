@@ -12,7 +12,7 @@ Power & Control System – V1
 | ----------- | -------- | --------------- | -------- | ------- |
 | AC mains L1 | —        | Main disconnect | L1       | 240 VAC |
 | AC mains L2 | —        | Main disconnect | L2       | 240 VAC |
-| Earth       | —        | Ground bar      | ⏚        | 10 AWG  |
+| Earth       | —        | Ground bar      | &#9178;  | 10 AWG  |
 
 ---
 
@@ -22,7 +22,7 @@ Power & Control System – V1
 | ------------- | -------- | --- | -------- | -------------- |
 | Disconnect L1 | —        | VFD | R        | 12 AWG         |
 | Disconnect L2 | —        | VFD | T        | 12 AWG         |
-| Ground bar    | ⏚        | VFD | ⏚        | Chassis ground |
+| Ground bar    | GND        | VFD | GND        | Chassis ground |
 
 (Do not connect S for single-phase unless your VFD manual explicitly instructs it.)
 
@@ -36,7 +36,7 @@ Power & Control System – V1
 | Disconnect L2 | —        | Stepper PSU | N        | 14 AWG      |
 | Disconnect L1 | —        | Control PSU | L        | 16 AWG      |
 | Disconnect L2 | —        | Control PSU | N        | 16 AWG      |
-| Ground bar    | ⏚        | All PSUs    | ⏚        | Bond frames |
+| Ground bar    | GND        | All PSUs    | GND        | Bond frames |
 
 ---
 
@@ -57,7 +57,7 @@ Power & Control System – V1
 | ---------- | -------- | ------- | -------- | ------------ |
 | DC block + | +        | DMA860S | V+       | 14 AWG       |
 | DC block − | −        | DMA860S | V−       | 14 AWG       |
-| Ground bar | ⏚        | DMA860S | ⏚        | Frame ground |
+| Ground bar | GND        | DMA860S | GND        | Frame ground |
 
 ---
 
@@ -182,7 +182,7 @@ Power & Control System – V1
 | VFD        | U        | Spindle | Phase 1  | 14 AWG    |
 | VFD        | V        | Spindle | Phase 2  |           |
 | VFD        | W        | Spindle | Phase 3  |           |
-| Ground bar | ⏚        | Spindle | ⏚        | Bond body |
+| Ground bar | GND        | Spindle | GND        | Bond body |
 
 ---
 

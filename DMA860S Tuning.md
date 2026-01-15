@@ -14,7 +14,7 @@ This section covers:
 
 ---
 
-## Motor facts (locked)
+## Motor facts
 
 * Motor type: NEMA 34
 * Rated current: 6.0 A per phase

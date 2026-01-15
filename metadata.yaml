@@ -1,0 +1,13 @@
+pdf-engine: xelatex
+mainfont: "Times New Roman"
+monofont: "Consolas"
+geometry: "margin=1in"
+fontsize: 12pt
+lang: "en" 
+title: "CNC Table"
+subtitle: "Power & Control System – V1"
+author: "Michael Aimino"
+date: "2026-01-15"
+toc: true
+toc-depth: 1
+number-sections: true
