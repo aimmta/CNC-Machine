@@ -12,7 +12,7 @@ Power & Control System – V1
 | ----------- | -------- | --------------- | -------- | ------- |
 | AC mains L1 | —        | Main disconnect | L1       | 240 VAC |
 | AC mains L2 | —        | Main disconnect | L2       | 240 VAC |
-| Earth       | —        | Ground bar      | &#9178;  | 10 AWG  |
+| Earth       | —        | Ground bar      | GND      | 10 AWG  |
 
 ---
 
