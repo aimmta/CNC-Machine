@@ -1,4 +1,4 @@
-# Draft DIN-Rail Placement Plan
+# DIN-Rail Placement Plan
 
 Power & Control System – V1
 

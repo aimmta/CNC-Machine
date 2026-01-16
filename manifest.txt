@@ -2,7 +2,11 @@ Readme.md
 Build Order Dependency Chart.md
 System Configuration.md
 Wiring Shopping List.md
+Control Cabinet Physical Plan.md
 Wire Gauge Specification.md
+AC Power Supply Specification.md
+DC Power Supply Specification.md
+Draft DIN-Rail Placement Plan.md
 Terminal-by-Terminal Wiring Table.md
 DMA860S Tuning.md
 DDCSV4.1 Axis and Dual-X Homing Configuration.md
@@ -11,6 +15,5 @@ Enable and Configure Soft Limits.md
 Configure Acceleration and Maximum Velocity.md
 Validate Spindle Speed Scaling.md
 Dry-Run G-code Test.md
-Control Cabinet Physical Plan.md
 Commissioning Checklist.md
 Pre-Cut Checklist.md
