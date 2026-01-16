@@ -23,10 +23,13 @@ All items should be verified in order. Do not skip steps.
 * [ ] Stepper driver frames bonded
 * [ ] Spindle body bonded
 * [ ] Cable shields terminated at cabinet end only
+* [ ] Stepper DC power supply installed per specification
+* [ ] Control / logic DC power supply installed per specification
 
 ### Power integrity
 
 * [ ] Main disconnect interrupts all AC
+* [ ] AC branch protection verified against AC Power Supply Specification
 * [ ] Stepper PSU AC feed fused
 * [ ] Control PSU AC feed fused
 * [ ] VFD on dedicated branch
@@ -84,6 +87,7 @@ All items should be verified in order. Do not skip steps.
 * [ ] Hard limits still functional
 * [ ] E-stop cuts motion power
 * [ ] E-stop stops spindle
+* [ ] Stepper DC bus voltage verified under simultaneous axis motion
 
 ## Phase 6: Spindle Validation
 
@@ -105,6 +109,7 @@ All items should be verified in order. Do not skip steps.
 
 ## Phase 8: V1 Acceptance
 
+* [ ] DC power capacity validated for continuous multi-axis operation
 * [ ] Cabinet closed and ventilated
 * [ ] All wiring labeled
 * [ ] Configuration values recorded

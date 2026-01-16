@@ -59,6 +59,47 @@ Rules:
 
 Single-point grounding only.
 
+## AC Power Entry and Distribution
+
+### Main Disconnect Placement
+
+AC power entry, disconnects, and branch protection shall be implemented in
+accordance with [AC Power Supply Specification](<AAC Power Supply Specification.md>).
+
+This device establishes the primary safety boundary for the cabinet.
+
+### Branch Breaker Layout
+
+Branch protection devices shall be DIN-rail mounted and located downstream of the
+main disconnect. Branch breakers should be arranged in a logical top-to-bottom or
+left-to-right order corresponding to load type:
+
+1. VFD branch
+2. Stepper DC power supply branch
+3. Control and logic power supply branch
+
+Each breaker shall be clearly labeled to indicate the load it serves.
+
+### Separation of Noisy and Quiet Loads
+
+The cabinet layout shall physically separate high-noise and low-noise components.
+
+- Noisy components:
+  - VFD
+  - VFD branch breaker
+  - Spindle power wiring
+
+- Quiet components:
+  - Control PSU
+  - DDCSV4.1 controller
+  - Signal terminal blocks
+
+Noisy and quiet wiring shall be routed in separate wire ducts where practicable.
+Crossings, if unavoidable, shall be made at right angles to minimize coupling.
+
+This separation reduces EMI, improves signal integrity, and increases overall
+system reliability.
+
 ## Airflow Plan
 
 - Bottom or side intake
