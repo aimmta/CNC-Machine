@@ -6,9 +6,10 @@ Proverbs 13:18 - "Poverty and shame come to him who ignores instruction, but who
 
 ## Reference Materials
 
-1. [3 Axis Table and Gantry System Configuration - V1](<https://cad.onshape.com/documents/532da8b92839cfa5dca263e4/w/8d17c162fe461645cd47aa79/e/e7ad9d5bf361f626c0b211c2>)
+1. [3 Axis Table and Gantry System Configuration - V1 (OnShape Assembly)](<https://cad.onshape.com/documents/532da8b92839cfa5dca263e4/w/8d17c162fe461645cd47aa79/e/e7ad9d5bf361f626c0b211c2>)
 1. [Power and Control System Configuration - V1](<System Configuration.md>)
 1. [Wiring Shopping List](<Wiring Shopping List.md>)
+1. [Glossary of Terms](<Glossary.md>)
 
 ## Build and Commissioning Order (Authoritative)
 

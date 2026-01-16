@@ -19,7 +19,7 @@ If work stops and resumes later, restart at the highest unchecked section.
 * Linear motion smooth across full travel
 * Mechanical alignment declared valid
 
-This section is a hard gate for electrical motion testing.
+Electrical motion, homing, and calibration assume mechanical alignment has been verified and locked.
 
 ## Electrical Infrastructure
 

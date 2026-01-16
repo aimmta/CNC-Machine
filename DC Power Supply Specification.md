@@ -104,15 +104,6 @@ Recommended supply rating:
 - Minimum: 24 VDC at 5 A
 - Preferred: 24 VDC at 10 A for headroom and future expansion
 
-## Electrical Separation and Grounding
-
-The stepper DC supply and the control DC supply must remain electrically isolated.
-DC negative rails must not be tied together.
-
-Both power supply chassis must be bonded to the cabinet ground bar, and all
-protective earth connections must converge at a single grounding point. This
-approach minimizes noise coupling and limits fault propagation.
-
 ## Acceptance Criteria
 
 The DC power system is considered valid when:
