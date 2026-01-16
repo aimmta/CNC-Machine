@@ -6,7 +6,7 @@ Control Cabinet Physical Plan.md
 Wire Gauge Specification.md
 AC Power Supply Specification.md
 DC Power Supply Specification.md
-Draft DIN-Rail Placement Plan.md
+Draft DIN Rail Placement Plan.md
 Terminal-by-Terminal Wiring Table.md
 DMA860S Tuning.md
 DDCSV4.1 Axis and Dual-X Homing Configuration.md
