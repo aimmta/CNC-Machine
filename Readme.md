@@ -1,7 +1,9 @@
 # Readme
 
 Proverbs 15:32 - "Whoever ignores instruction despises himself, but he who listens to reproof gains understanding."
+
 Proverbs 12:15 - "The way of a fool is right in his own eyes, but a wise man listens to advice."
+
 Proverbs 13:18 - "Poverty and shame come to him who ignores instruction, but whoever heeds reproof is honored."
 
 ## Reference Materials
