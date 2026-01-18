@@ -103,6 +103,7 @@ Recommended supply rating:
 
 - Minimum: 24 VDC at 5 A
 - Preferred: 24 VDC at 10 A for headroom and future expansion
+- Control and logic power supply: Mean Well NDR-240-24, 24 VDC, 10 A, DIN-rail mounted.
 
 ## Acceptance Criteria
 
