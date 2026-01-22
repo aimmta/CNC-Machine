@@ -20,7 +20,7 @@ This section covers:
 * Application: Large CNC router, dual-X gantry
 * Controller: DDCSV4.1 (500 kHz capable)
 
-## 1. Output current setting
+## Output current setting
 
 Set the DMA860S **peak current to 6.0 A**.
 
@@ -48,7 +48,7 @@ After 20 to 30 minutes of holding torque:
 
 If either is too hot to touch, reduce current one step.
 
-## 2. Idle current reduction
+## Idle current reduction
 
 Enable idle current reduction at **50 percent**.
 
@@ -59,7 +59,7 @@ If the DMA860S offers multiple idle options:
 * Choose 50 percent or equivalent
 * Avoid aggressive reductions below 30 percent on Z
 
-## 3. Microstep selection
+## Microstep selection
 
 ### Design goals
 
@@ -80,7 +80,7 @@ This is a very common and well-balanced choice for large NEMA 34 systems.
 * Mechanical stiffness dominates accuracy, not microstep count
 * Higher microsteps increase pulse rate with no real gain
 
-## 4. Steps per revolution and steps per unit
+## Steps per revolution and steps per unit
 
 ### Motor basics
 
@@ -100,7 +100,7 @@ You will calculate steps per unit later based on:
 
 For now, lock **2000 steps per motor revolution** as the electrical constant.
 
-## 5. Signal polarity and enable behavior
+## Signal polarity and enable behavior
 
 ### Direction signal
 
@@ -114,7 +114,7 @@ For now, lock **2000 steps per motor revolution** as the electrical constant.
 * Active-low enable is typical
 * Confirm behavior by disabling the axis in DDCSV and verifying free rotation
 
-## 6. Pulse timing considerations
+## Pulse timing considerations
 
 The DMA860S is tolerant, but best practice is:
 
@@ -123,7 +123,7 @@ The DMA860S is tolerant, but best practice is:
 
 The DDCSV4.1 defaults are usually safe here. No special tuning required initially.
 
-## 7. Axis-specific notes
+## Axis-specific notes
 
 ### X and A axes (dual gantry)
 
@@ -141,7 +141,7 @@ The DDCSV4.1 defaults are usually safe here. No special tuning required initiall
 * Same current and microstep initially
 * If Z runs warmer, reduce idle current only, not peak
 
-## 8. Initial verification checklist
+## Initial verification checklist
 
 Before commanding motion:
 
