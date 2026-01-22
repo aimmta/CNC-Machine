@@ -2,7 +2,7 @@
 
 Power & Control System – V1
 
-## 1. Preconditions
+## Preconditions
 
 Before calibrating, confirm:
 
@@ -14,7 +14,7 @@ Before calibrating, confirm:
 
 Do not calibrate until the machine can home reliably.
 
-## 2. What steps-per-unit actually is
+## What steps-per-unit actually is
 
 Steps-per-unit expresses the relationship between:
 
@@ -29,7 +29,7 @@ Steps per unit =
 / Linear travel per revolution
 ```
 
-## 3. Electrical constants (locked)
+## Electrical constants (locked)
 
 * Motor full steps per revolution: 200
 * Microsteps: 10
@@ -37,7 +37,7 @@ Steps per unit =
 
 These values apply to **all axes**, including X and A.
 
-## 4. Mechanical inputs you must supply
+## Mechanical inputs you must supply
 
 You need one of the following per axis:
 
@@ -57,7 +57,7 @@ If an axis uses reduction:
 
 Each axis can differ mechanically.
 
-## 5. Initial calculation (example)
+## Initial calculation (example)
 
 ### Example: 10 mm ballscrew
 
@@ -77,7 +77,7 @@ Steps per mm = 2000 / circumference
 
 Use this value only as a starting point.
 
-## 6. Enter initial values in DDCSV4.1
+## Enter initial values in DDCSV4.1
 
 1. Go to **System Settings**
 2. Open **Axis Settings**
@@ -89,7 +89,7 @@ Use this value only as a starting point.
 
 Do not attempt fine tuning yet.
 
-## 7. Measurement setup
+## Measurement setup
 
 You need a reliable reference.
 
@@ -107,7 +107,7 @@ Measurement rules:
 
 Longer moves reduce error.
 
-## 8. Calibration move procedure
+## Calibration move procedure
 
 For each axis independently:
 
@@ -122,7 +122,7 @@ Record:
 * Commanded distance
 * Actual distance
 
-## 9. Correction calculation
+## Correction calculation
 
 Use this exact formula:
 
@@ -145,7 +145,7 @@ New value ≈ 200.80
 
 Enter the new value.
 
-## 10. Apply and repeat
+## Apply and repeat
 
 1. Enter corrected value
 2. Save settings
@@ -158,7 +158,7 @@ Stop when:
 * Error is less than 0.05 mm over 100 mm
 * Or better, depending on your goals
 
-## 11. Dual-X axis rule
+## Dual-X axis rule
 
 * Calibrate **X only**
 * Copy the final X value to **A**
@@ -169,7 +169,7 @@ If the gantry does not square:
 * Fix homing switch alignment
 * Do not alter steps-per-unit to compensate
 
-## 12. Z-axis special notes
+## Z-axis special notes
 
 Z axes often have:
 
@@ -186,7 +186,7 @@ If Z error differs up vs down:
 * That is mechanical, not steps-per-unit
 * Do not compensate electrically
 
-## 13. Verify full-travel accuracy
+## Verify full-travel accuracy
 
 After fine calibration:
 
@@ -200,7 +200,7 @@ If error grows with distance:
 * Check couplings
 * Check rack mounting
 
-## 14. Lock the values
+## Lock the values
 
 Once satisfied:
 
@@ -210,7 +210,7 @@ Once satisfied:
 
 These values should not change unless mechanics change.
 
-## 15. What this completes
+## What this completes
 
 At this point, V1 has:
 
