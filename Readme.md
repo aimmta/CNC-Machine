@@ -33,7 +33,7 @@ Mechanical and electrical systems are interdependent and must be validated at th
 1. [DIN-Rail Placement Plan](<Draft DIN Rail Placement.md>)
 1. [Terminal-by-Terminal Wiring Table](<Terminal-by-Terminal Wiring Table.md>)
 1. [DMA860S Tuning](<DMA860S Tuning.md>)
-1. [DDCSV4.1 Axis and Dual-X Homing Configuration](<DDCSV4.1 Axis and Dual-X Homing Configuration.md>)
+1. [DDCSV 4.1 Axis and Dual-X Homing Configuration](<DDCSV4.1 Axis and Dual-X Homing Configuration.md>)
 1. [Steps-Per-Unit Calibration](<Steps-Per-Unit Calibration.md>)
 1. [Enable and Configure Soft Limits](<Enable and Configure Soft Limits.md>)
 1. [Configure Acceleration and Maximum Velocity](<Configure Acceleration and Maximum Velocity.md>)
