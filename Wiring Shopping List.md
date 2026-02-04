@@ -15,9 +15,9 @@ Southwire 10 AWG Stranded THHN Copper Wire
 
 | Color | Lowes Item # | Typical Price | Quantity |
 |------|--------------|---------------|----------|
-| Black | 293634 | ~$1.98 / ft | 25 ft |
-| Red | 293636 | ~$1.98 / ft | 25 ft |
-| Green | 293633 | ~$1.98 / ft | 25 ft |
+| Black | 5994004 | ~$1.98 / ft | 25 ft |
+| Red | 5994006 | ~$1.98 / ft | 25 ft |
+| Green | 5994007 | ~$1.98 / ft | 25 ft |
 
 Uses:
 - Cabinet protective earth bond
@@ -30,9 +30,9 @@ Southwire 12 AWG Stranded THHN Copper Wire
 
 | Color | Lowes Item # | Typical Price | Quantity |
 |------|--------------|---------------|----------|
-| Black | 293592 | ~$1.35 / ft | 25 ft |
-| Red | 293594 | ~$1.35 / ft | 25 ft |
-| Green | 293591 | ~$1.35 / ft | 25 ft |
+| Black | 666899 | ~$1.35 / ft | 25 ft |
+| Red | 5994010 | ~$1.35 / ft | 25 ft |
+| Green | 5994011 | ~$1.35 / ft | 25 ft |
 
 Uses:
 - Main disconnect to VFD input
@@ -44,9 +44,9 @@ Southwire 14 AWG Stranded THHN Copper Wire
 
 | Color | Lowes Item # | Typical Price | Quantity |
 |------|--------------|---------------|----------|
-| Black | 293560 | ~$0.88 / ft | 50 ft |
-| Red | 293562 | ~$0.88 / ft | 50 ft |
-| Green | 293559 | ~$0.88 / ft | 50 ft |
+| Black | 383311 | ~$0.88 / ft | 50 ft |
+| Red | 383314 | ~$0.88 / ft | 50 ft |
+| Green | 383316 | ~$0.88 / ft | 50 ft |
 
 Uses:
 - Disconnect to stepper PSU
