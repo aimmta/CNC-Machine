@@ -59,8 +59,8 @@ Southwire 16 AWG Stranded THHN Copper Wire
 
 | Color | Lowes Item # | Typical Price | Quantity |
 |------|--------------|---------------|----------|
-| Black | 557888 | ~$0.62 / ft | 25 ft |
-| Red | 557889 | ~$0.62 / ft | 25 ft |
+| Black | 313146 | ~$0.62 / ft | 25 ft |
+| Red | 313149 | ~$0.62 / ft | 25 ft |
 
 Uses:
 - Disconnect to control PSU
@@ -72,8 +72,8 @@ Southwire 18 AWG Stranded Primary Wire
 
 | Color | Lowes Item # | Typical Price | Quantity |
 |------|--------------|---------------|----------|
-| Red | 557913 | ~$0.44 / ft | 50 ft |
-| Black | 557912 | ~$0.44 / ft | 50 ft |
+| Red | 2082395 | ~$0.44 / ft | 50 ft |
+| Black | 2082394 | ~$0.44 / ft | 50 ft |
 
 Uses:
 - 24 VDC logic distribution
