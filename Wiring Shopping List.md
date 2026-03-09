@@ -1,169 +1,134 @@
-# Wiring Shopping List
+## Wiring Shopping List
 
 Power & Control System – V1
 
-## 1. AC Mains and Power Distribution Wire
+This wiring shopping list reflects the authoritative V1 documentation and is split by purchasing source to minimize substitutions and reduce EMI risk.
 
-### High-current AC (cabinet internal)
+## List A – Available at Lowes (ZIP 15701)
 
-* **10 AWG stranded copper wire (green)**
+All wire in this section is acceptable for cabinet and low-voltage use.
+Use stranded copper THHN/THWN-2.
 
-  * Purpose: main cabinet ground bond
-  * Buy: 10–15 ft
+### 10 AWG Stranded Copper (THHN/THWN-2)
 
-* **10 AWG stranded copper wire (black/red)**
+Southwire 10 AWG Stranded THHN Copper Wire
 
-  * Purpose: main AC feed inside cabinet
-  * Buy: 10–15 ft
+| Color | Lowes Item # | Typical Price | Quantity |
+|------|--------------|---------------|----------|
+| Black | 5994004 | ~$1.98 / ft | 25 ft |
+| Red | 5994006 | ~$1.98 / ft | 25 ft |
+| Green | 5994007 | ~$1.98 / ft | 25 ft |
 
-* **12 AWG stranded copper wire (black/red)**
+Uses:
+- Cabinet protective earth bond
+- Stepper DC bus (V+ / V−)
+- Main AC internal feed
 
-  * Purpose: VFD input power
-  * Buy: 10–15 ft
+### 12 AWG Stranded Copper (THHN/THWN-2)
 
-* **14 AWG stranded copper wire (black/red)**
+Southwire 12 AWG Stranded THHN Copper Wire
 
-  * Purpose: stepper PSU AC feed
-  * Buy: 10–15 ft
+| Color | Lowes Item # | Typical Price | Quantity |
+|------|--------------|---------------|----------|
+| Black | 666899 | ~$1.35 / ft | 25 ft |
+| Red | 5994010 | ~$1.35 / ft | 25 ft |
+| Green | 5994011 | ~$1.35 / ft | 25 ft |
 
-* **16 AWG stranded copper wire**
+Uses:
+- Main disconnect to VFD input
+- PSU frame bonding
 
-  * Purpose: control PSU AC feed
-  * Buy: 10 ft
+### 14 AWG Stranded Copper (THHN/THWN-2)
 
-Insulation type:
+Southwire 14 AWG Stranded THHN Copper Wire
 
-* MTW or THHN, 600 V rated, 75 °C or higher
+| Color | Lowes Item # | Typical Price | Quantity |
+|------|--------------|---------------|----------|
+| Black | 383311 | ~$0.88 / ft | 50 ft |
+| Red | 383314 | ~$0.88 / ft | 50 ft |
+| Green | 383316 | ~$0.88 / ft | 50 ft |
 
-## 2. VFD to Spindle Cable (critical item)
+Uses:
+- Disconnect to stepper PSU
+- DC distribution to DMA860S drivers
+- Ground bonding for drivers and VFD
 
-* **Shielded VFD motor cable, 4-conductor**
+### 16 AWG Stranded Copper (THHN/THWN-2)
 
-  * Conductors: **14 AWG**
-  * Configuration: 3 phases + ground
-  * Shield: braided or foil + drain
-  * Length: machine dependent
+Southwire 16 AWG Stranded THHN Copper Wire
 
-    * Typical router: **15–25 ft**
+| Color | Lowes Item # | Typical Price | Quantity |
+|------|--------------|---------------|----------|
+| Black | 313146 | ~$0.62 / ft | 25 ft |
+| Red | 313149 | ~$0.62 / ft | 25 ft |
 
-Do not substitute generic SOOW here. This cable matters.
+Uses:
+- Disconnect to control PSU
+- Control PSU to DC distribution
 
-## 3. Stepper DC Power Wiring
+### 18 AWG Stranded Copper (Primary Wire)
 
-### DC bus (PSU to distribution)
+Southwire 18 AWG Stranded Primary Wire
 
-* **10 AWG stranded copper wire (red and black)**
+| Color | Lowes Item # | Typical Price | Quantity |
+|------|--------------|---------------|----------|
+| Red | 2082395 | ~$0.44 / ft | 50 ft |
+| Black | 2082394 | ~$0.44 / ft | 50 ft |
 
-  * Purpose: stepper PSU DC output to terminal block
-  * Buy: 10 ft each color
+Uses:
+- 24 VDC logic distribution
+- E-stop logic wiring
+- Auxiliary control circuits
 
-### DC distribution to drivers
+### Lowes Accessories (Recommended)
 
-* **14 AWG stranded copper wire (red and black)**
+- Slotted wire duct
+- Heat-shrink wire labels
+- Cable clamps and strain reliefs
+- Green grounding screws
+- Wire ferrules (10, 12, 14, 16, 18, 22 AWG)
 
-  * Purpose: terminal block to each DMA860S
-  * Buy: 25–30 ft total (covers all four drivers)
+## List B – Industrial Cable (Single Supplier)
 
-## 4. Stepper Motor Cables
+Supplier: AutomationDirect  
+Website: https://www.automationdirect.com  
+Phone: 1-800-633-0405  
+Support: https://www.automationdirect.com/support  
 
-You have **4 NEMA 34 motors**.
+### VFD to Spindle Cable
 
-* **Shielded motor cable, 4-conductor**
+| Item | Part Number | Price | Quantity |
+|------|------------|-------|----------|
+| Shielded VFD motor cable, 14 AWG, 4-conductor | VFD14-4C | ~$5.80 / ft | 25 ft |
 
-  * Conductors: **14 AWG**
-  * Twisted pairs preferred
-  * Shield with drain wire
-  * Length per motor:
+Notes:
+- Braided or foil shield with drain
+- Shield grounded at VFD end only
 
-    * X motors: gantry travel + service loop
-    * Y motor: full axis travel
-    * Z motor: shorter run
-  * Typical total buy: **60–80 ft**
+### Stepper Motor Cables (4 motors)
 
-Label both ends before installing.
+| Item | Part Number | Price | Quantity |
+|------|------------|-------|----------|
+| Shielded stepper motor cable, 14 AWG, 4-conductor | CABLE-MTR-14-4 | ~$4.20 / ft | 80 ft |
 
-## 5. Control Power (24 VDC)
+Notes:
+- One cable per motor
+- Shield grounded at cabinet end only
 
-* **16 AWG stranded copper wire**
+### Step / Direction / Enable Signal Cable
 
-  * Purpose: 24 VDC PSU to distribution
-  * Buy: 10 ft
+| Item | Part Number | Price | Quantity |
+|------|------------|-------|----------|
+| Shielded twisted-pair control cable, 22 AWG, 2-pair | CABLE-SHLD-22-2PR | ~$1.95 / ft | 40 ft |
 
-* **18 AWG stranded copper wire**
+Notes:
+- Shield grounded at controller end only
 
-  * Purpose: distribution to DDCSV, relays, fans
-  * Buy: 30–40 ft
+### Limit, Home, and Analog Control Cable
 
-Color suggestion:
+| Item | Part Number | Price | Quantity |
+|------|------------|-------|----------|
+| Shielded twisted-pair control cable, 22 AWG, 1-pair | CABLE-SHLD-22-1PR | ~$1.45 / ft | 60 ft |
 
-* Red = +24 V
-* Black or blue = 0 V
-
-## 6. Step / Direction / Enable Signal Wiring
-
-* **Shielded, twisted-pair control cable**
-
-  * Conductors: **22 AWG**
-  * Pairs: at least 2 pairs per axis
-  * Shield with drain wire
-
-Usage:
-
-* DDCSV → DMA860S (Step, Dir, Enable)
-
-Buy:
-
-* **30–40 ft total**
-
-You can run one multi-pair cable per driver or bundle pairs neatly.
-
-## 7. Limits, Homes, and E-stop Wiring
-
-### Limit and home switches
-
-* **Shielded control cable**
-
-  * Conductors: **22 AWG**
-  * 2–3 conductors per switch
-  * Buy: **40–60 ft** (depends on machine size)
-
-### E-stop control loop
-
-* **18 or 20 AWG stranded copper**
-
-  * Purpose: E-stop logic loop
-  * Buy: 15–20 ft
-
-## 8. Analog Spindle Speed Control (0–10 V)
-
-* **Shielded twisted-pair cable**
-
-  * Conductors: **22 AWG**
-  * Buy: 10–15 ft
-
-This must be its own cable. Do not bundle with step/dir.
-
-## 9. Grounding and Shield Termination
-
-* **14 AWG green stranded copper wire**
-
-  * Purpose: bonding PSUs, drivers, VFD chassis
-  * Buy: 15–20 ft
-
-* **Drain wire (18–22 AWG)**
-
-  * Purpose: shield termination to ground bar
-  * Usually included in shielded cable, but have extra on hand
-
-## 10. Optional but strongly recommended
-
-* Ferrules for:
-
-  * 10 AWG
-  * 12 AWG
-  * 14 AWG
-  * 16 AWG
-  * 18–22 AWG
-* Heat-shrink labels
-* Cable clamps and strain reliefs
-* Wire duct (slotted)
+Notes:
+- Suitable for limits, homes, and 0–10 V analog control
